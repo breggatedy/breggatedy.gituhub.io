@@ -1,42 +1,85 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Bregga Tedy Portfolio Website</title>
     <meta http-equiv="Content-Type" content="text/html" charset="windows-1252">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script type="text/javascript" src="js/slide-anim.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Arvo|Montserrat|Open+Sans:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Montserrat:300|PT+Mono" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" integrity="sha256-t2/7smZfgrST4FS1DT0bs/KotCM74XlcqZN5Vu7xlrw=" crossorigin="anonymous" />
-  </head>
+</head>
 
-<body style="background-color: #FFFFFF">
-<!--Navbar Section-->
-  <div>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="navbar-header">
-    <a class="navbar-brand" href="#">Brand</a>
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
+<body>
+
+<!-- Navbar Start-->
+<div class="navbar-wrapper">
+  <div class="container-fluid">
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li class="active"><a href="#">HOME</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UX RESEARCH <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Title 1</a></li>
+                <li><a href="#">Title 2</a></li>
+              </ul>
+            </li>
+            <li class=""><a href="#">UI DESIGN</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OTHER <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">3D ARTIST</a></li>
+                <li><a href="#">EXPORT</a></li>
+                <li><a href="#">RETAIL</a></li>
+              </ul>
+            </li>  
+          </ul>
+        </div>
+      </div>
+    </nav>
   </div>
-  <div class="navbar-collapse collapse">
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="index.html">HOME</a></li>
-      <li><a href="merchant.html">BECOME MERCHANT</a></li>
-      <li><a href="about.html">ABOUT US</a></li>
-      <li><a href="faq.html">FAQ</a></li>
-      <li><a href="login.html">LOGIN</a></li>
-    </ul>
+</div>
+
+<!-- Slider Start -->
+
+<ul class="cb-slideshow">
+  <li style="color: rgba(255,255,255,0)"><span>Image 01</span></li>
+  <li style="color: rgba(255,255,255,0)"><span>Image 02</span></li>
+  <li style="color: rgba(255,255,255,0)"><span>Image 03</span></li>
+  <li style="color: rgba(255,255,255,0)"><span>Image 04</span></li>
+  <li style="color: rgba(255,255,255,0)"><span>Image 05</span></li>
+  <li style="color: rgba(255,255,255,0)"><span>Image 06</span></li>
+</ul>
+
+<div class="container">
+  <!-- Codrops top bar -->
+  <div class="codrops-top codrops-frame">
+    <h1 class="hello">Hello.</h1>
+    <p class="hello">I'm Bregga Tedy, and I'm a UX Researcher, UI Designer, 3D enthusiast, and DIY fanatics.<br><br>
+    If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch. </p>
+    <div class="row text-center">
+      <div class="col-md-6" style="color: #CCC">
+        <a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i> &ensp; <span style="font-size: 1.1em; font-family: 'PT Mono', monospace">Instagram</span></a></div>
+      <div class="col-md-6" style="color: #CCC">
+        <a href="#"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i> &ensp; <span style="font-size: 1.1em; font-family: 'PT Mono', monospace">Email</span></a></div>
+    </div>
   </div>
-</nav>
-</div>  
-<!--End Navbar-->
- 
+  <!--/ Codrops top bar -->
+</div>
+
 </body>
 </html>
