@@ -301,7 +301,7 @@ html, body {
 	background: black;
 	opacity: 0.85;
 	#text-transform: uppercase;
-	z-index: 9999;
+	z-index: 1;
 	position: absolute;
     bottom: 0;
 	-moz-box-shadow: 1px 0px 2px #000;
