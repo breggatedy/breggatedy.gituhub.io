@@ -1,0 +1,124 @@
+body {
+	#padding-top:70px;
+}
+
+.navbar {
+  background: rgba(0,0,0,0.85);
+}
+.navbar-header {
+  float: none;
+}
+.navbar-toggle {
+  display: block;
+}
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  float: none!important;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-collapse.collapse.in{
+  display:block !important;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Pridi', serif;
+    font-weight: 400;
+}
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+h4 {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.bg-merchant { 
+  background: url('../images/hero-background-alt.jpg') no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-faq { 
+  background: url('../images/red-phone.jpg') no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-about { 
+  background: url('../images/hero-background-about2.jpg') no-repeat top; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-screen {
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+@media screen and (max-width : 480px) {
+  .bg-screen {
+    #width: 100%;
+    #height: 100px;
+    #min-height: 600px;
+    #align-items: flex-start;
+    #justify-content: space-between;
+  }
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.overFlow {
+  overflow: hidden;
+}
+
+.perSection {
+    padding: 30px;
+}
+
+.divider {
+    position: static;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#map {
+    #width: 100%;
+    height: 100vh;
+    align-items: stretch;
+}
+
+A:link { COLOR: black; TEXT-DECORATION: none; font-weight: normal }
