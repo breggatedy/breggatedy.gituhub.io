@@ -107,6 +107,15 @@ p.cite {
     justify-content: center;
     display: flex;
 }
+.bg-screen-bottom {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    align-items: flex-end;
+    justify-content: center;
+    bottom: 0;
+    display: flex;
+}
 
 .col-centered {
     float: none;
