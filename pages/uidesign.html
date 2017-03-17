@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>UI Design | Bregga Tedy Portfolio Website</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html" charset="windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/ux.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Montserrat:300,400|Quicksand:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" integrity="sha256-t2/7smZfgrST4FS1DT0bs/KotCM74XlcqZN5Vu7xlrw=" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="js/vegas/jquery.vegas.css">
+    <link rel="stylesheet" type="text/css" href="js/jscrollpane/jquery.jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="/css/ui.css">
+    <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+    <script src="/js/jquery.easing.js"></script>
+    <script src="/js/vegas/jquery.vegas.js"></script>
+    <script src="/js/jscrollpane/jquery.jscrollpane.min.js"></script>
+    <script src="/js/buzz/buzz.js"></script>
+    <script src="/js/gallery.js"></script>
+</head>
+
+<body>
+   
+<!-- Navbar Start-->
+    <nav class="navbar navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="/index.html">HOME</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UX RESEARCH <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/pages/kapsul.html">KAPSUL</a></li>
+                <li><a href="/pages/fina.html">FINA (MONICA)</a></li>
+                <li><a href="/pages/wazte.html">WAZTE</a></li>
+                <!--<li><a href="/pages/sweep.html">SWEEP</a></li>
+                <li><a href="/usability.html">USABILITY TEST</a></li>-->
+              </ul>
+            </li>
+            <li class="active"><a href="#">UI GALLERY</a></li>
+            <!--<li class="dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OTHER <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">3D ARTIST</a></li>
+                <li><a href="#">EXPORT</a></li>
+                <li><a href="#">RETAIL</a></li>
+                <li><a href="#">CONTACT ME</a></li>
+              </ul>
+            </li>-->
+            <li class=""><a href="mailto:bregga.tedy@gmail.com?Subject=Hello%20Bregga" target="_top"><i class="fa fa-envelope fa-lg" aria-hidden="true" style="color: #44B4E2"></i></a></li>  
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!--SlideShow Start-->
+    <div id="flash"></div>
+    <!--<div id="title">
+        <h1>New York Gallery</h1>
+        <p>Picture by <a href="http://www.flickr.com/photos/48904316@N04/">Alessandro Artini</a></p>
+    </div>-->
+<div align="center">    
+    <div id="thumbnails" align="center">
+        <ul>
+            <li><a href="/images/ui/01.jpg"><img src="/images/ui/01b.png" title="New York moving" data-valign="top"></a></li>
+            <li><a href="/images/ui/02.jpg"><img src="/images/ui/02b.png" title="New York traffic" data-valign="bottom"></a></li>
+            <li><a href="/images/ui/03.jpg"><img src="/images/ui/03b.png" title="Street dancers"></a></li>
+            <li><a href="/images/ui/04.jpg"><img src="/images/ui/04b.png" title="Lights"></a></li>
+            <li><a href="/images/ui/05.jpg"><img src="/images/ui/05b.png" title="NBC Studio"></a></li>
+            <li><a href="/images/ui/06.jpg"><img src="/images/ui/06b.png" title="New York by night" data-valign="top"></a></li>
+            <li><a href="/images/ui/07.jpg"><img src="/images/ui/07b.png" title="Empire State Building"></a></li>
+            <li><a href="/images/ui/08.jpg"><img src="/images/ui/08b.png" title="New York Promenade" data-valign="top"></a></li>
+            <!--<li><a href="/images/ui/09.jpg"><img src="/images/ui/09b.jpg" title="Ellis Island Flag" data-valign="top"></a></li>
+            <li><a href="/images/ui/10.jpg"><img src="/images/ui/10b.jpg" title="Central Park"></a></li>
+            <li><a href="/images/ui/11.jpg"><img src="/images/ui/11b.jpg" title="Statue of Liberty" data-valign="top"></a></li>
+            <li><a href="/images/ui/12.jpg"><img src="/images/ui/12b.jpg" title="Shoes"></a></li>-->
+        </ul>
+    	<div id="pointer"></div>
+    </div>
+</div>
+    <div id="pause"><a href="#"></a></div>
+    <!--<div id="volume" class="all"><a href="#">Sounds</a></div>-->
+</body>
+</html>
