@@ -85,9 +85,10 @@ img {
 	height: 65px;
 	left: 0;
 	overflow: hidden;
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 	width: 100%;
+    justify-content: center;
 }
 	#thumbnails ul {
 		margin: 0;
@@ -126,23 +127,25 @@ img {
 
 #pause {
 	display: none;
-	font: 100px 'Arvo', serif;;
+	font: 50px 'Arvo', serif;;
 	height: 100%;
 	opacity: 0.4;
 	position: absolute;
 	text-align: center;
 	text-shadow: 0 0 5px #000;
 	width: 100%;
+    
 }
 	#pause a {
 		color: #FFF;
-		height: 100px;
+		#height: 100px;
 		left: 50%;
 		margin: -50px 0 0 -250px;
 		position: absolute;
 		text-transform: uppercase;
-		top: 50%;
-		width: 500px;
+		#top: 50%;
+        bottom: 0;
+		#width: 500px;
 	}
 
 /*#volume {
@@ -174,9 +177,10 @@ img {
 	bottom: 40px;
 	left: 40px;
 }
-.vegas-overlay {
+/*.vegas-overlay {
 	background-image: url(../js/vegas/overlays/02.png);
 }
+*/
 
 .jspHorizontalBar {
 	height: 5px;	

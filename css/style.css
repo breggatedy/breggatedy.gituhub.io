@@ -98,7 +98,7 @@ html, body {
     -moz-animation: titleAnimation 36s linear infinite 0s;
     -o-animation: titleAnimation 36s linear infinite 0s;
     -ms-animation: titleAnimation 36s linear infinite 0s;
-    animation: titleAnimation 36s linear infinite 0s; 
+    animation: titleAnimation 36s linear infinite 0s;
 }
 
 .cb-slideshow li:nth-child(1) span { 
@@ -179,6 +179,7 @@ html, body {
     -ms-animation-delay: 30s;
     animation-delay: 30s; 
 }
+
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation { 
     0% { opacity: 0;
@@ -279,7 +280,7 @@ html, body {
 	line-height: 24px;
 	font-size: 11px;
 	background: black;
-	opacity: 0.85;
+	opacity: 0.7;
 	#text-transform: uppercase;
 	z-index: 1;
 	position: absolute;
