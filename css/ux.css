@@ -96,6 +96,12 @@ p.title2 {
     letter-spacing: 2px; 
     text-transform: uppercase;
 }
+p.title3 {
+    font-family: 'Arvo', serif;
+    color: #333;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+}
 p.footer {
     color: #777;
     font-size: 1em;
@@ -110,10 +116,23 @@ p.quote {
     font-size: 2em;
     color: #44B4E2;
 }
+p.quote2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.4em;
+    color: #44B4E2;
+}
+
 p.cite {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 1.4em;
+    font-size: 1.3em;
+    color: #555;
+}
+p.cite2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
     color: #555;
 }
 
